@@ -1,74 +1,78 @@
- import React from 'react'
- import { Box , Image  } from "@chakra-ui/react"
+import React from "react";
+import "../styles.css";
  
- function Skills() {
+function Skills() {
   const SkillsData = [
     {
-      id:1,
+      id: 1,
       name: "HTML5",
-      image:" https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg " ,
-
+      image:
+        " https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg ",
     },
     {
-      id:2,
+      id: 2,
       name: "CSS3",
-      image:" https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg " ,
-
+      image:
+        " https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg ",
     },
     {
-      id:3,
+      id: 3,
       name: "JAVASCRIPT",
-      image:" https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg " ,
-
+      image:
+        " https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg ",
     },
     {
-      id:4,
-      name: "REACT" ,
-      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNErx29Xj1-HZGSX74XQZTz0xOa7t2WYaTGg&usqp=CAU"  ,
-
+      id: 4,
+      name: "REACT",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207",
     },
     {
-      id:5,
+      id: 5,
       name: "REDUX",
-      image:" https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png  " ,
+      image: " https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png  ",
+    },
+    {
+      id: 6,
+      name: "GITHUB",
+      image:
+              "https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png" ,
+    },
+    {
+      id:7,
+      name : "GIT",
+      image:"https://www.logo.wine/a/logo/GitHub/GitHub-Logo.wine.svg",
 
     },
     {
-      id:6,
-      name: "GITHUB",
-      image:" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVX4T8aK1B1achwL0ghFbp6HRI70Grdo_U7w&usqp=CAU " ,
+      id:7,
+      name : "GIT",
+      image:"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
 
     },
+   
+ 
+  
+  ];
+  return (
+    
+    <div id="Skillsid">
+       
+       <h1 id="tex">Technical Skills</h1>
+       
+      
+      
+     
+      {SkillsData.map((ele) => (
 
-  ]
-   return (
-     <div id='Skillsid'> 
-      {
-          SkillsData.map((ele)=>(
-             
-           <Box ml={"4vh"} display={"inline-grid"}  p={"5vh"}>
-
-           
-              <Image  borderRadius={"full"} boxSize="150px" objectFit={"cover"}   width="20vh" height="20vh" src={ele.image} alt = {ele.name} />
-              </Box>
-              
         
-           
+        <div id="container">
           
-            
-            
-           
-             
-             
-            
-          ))
-      }
+          <img src={ele.image} alt={ele.name} />
+        </div>
+      ))}
+    </div>
+  );
+}
 
-     </div>
-   )
- }
- 
- export  {Skills}
-
-
- 
+export { Skills };

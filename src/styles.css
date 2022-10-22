@@ -1,0 +1,515 @@
+
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    
+   
+     
+  }
+  
+  section {
+    display: grid;
+    place-items: center;
+    height:auto;
+    font-size: 31px;
+    font-weight: bold;
+  }
+  
+   
+  
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -5px;
+    z-index: 2;
+    height: 70px;
+    min-height: 70px;
+    width: calc(100% - 1.5rem);
+    background-color: rgb(246, 239, 239);
+    padding: 0 1rem;
+    box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  }
+  
+  .nav__container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .nav__container__actions {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    padding-left: 50px;
+    flex: 1;
+  }
+  
+  .active {
+    font-weight:bold;
+     
+  }
+  
+  ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+     
+  }
+  
+  li:hover {
+    text-decoration: none;
+     
+    
+  }
+  
+  #my_img{
+    text-align:center;
+    font-weight: bold;
+    height: 50vh;
+   
+    width: 60%;
+     
+    border-radius: 20px;
+    
+  }
+  .my_i{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 80%;
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5em;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+ .my_i>img{
+  border-radius: 50%;
+  height: 10em;
+  width: 25%;
+  
+  margin-left: 1em;
+  
+
+ }
+ #resume{
+  height: 25px;
+  width: auto;
+  display: flex;
+    gap: 20px;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+  margin-left: -40rem;
+  margin-top: 16rem;
+  
+ }
+ #resume>button{
+  padding: 10px 25px 10px 25px; 
+  border-radius: 15px;
+  border: 0;
+  margin: 0;
+  background-color: rgb(221, 213, 213);
+   font-size: 20px;
+ }
+ #resume>button:hover{
+  background-color: rgb(245, 155, 155);
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+ }
+ a{
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+  text-align: center;
+ }
+
+ #svg{
+  height: 15px;
+  width: 30px;
+  margin-left: -1.5em;
+ }
+ #about_str{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: auto;
+  height: 40vh;
+  width: 80%;
+  padding: 20px 10px 10px 20px;
+  gap: 25px;
+  
+  margin-top:7.5em;
+  border-radius: 20px;
+ }
+ #about{
+  
+  display: flex;
+  align-items: flex-start;
+   
+  padding: 15px;
+  border-radius: 20px;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+ }
+ 
+ #para{
+  text-align: justify;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 35px;
+
+ }
+ #about>img{
+  border-radius: 50%;
+  width: 10em;
+  height: 30vh;
+  
+ }
+ #about_str>h1{
+  font-size: 35px;
+  margin-top: -2.5em;
+ 
+  position: absolute;
+ }
+ 
+ #tex{
+  font-size: 35px;
+   position: absolute;
+  margin-top: -2em;
+   margin-left: 16em;
+ }
+ #Skillsid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  height: 60vh;
+  width: 90%;
+  margin-top:7em;
+  
+ }
+ #container>img{
+  height: 25vh;
+  width: 15vh;
+ }
+ 
+#pro{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 15px;
+  height: 150vh;
+  width: 90%;
+  border-radius: 20px;
+  padding: 15px;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 5em;
+}
+#proimg{
+  height: 35vh;
+  width: 45vh;
+  border-radius: 15px;
+
+}
+#pt{
+  font-size: 20px;
+
+}
+#title{
+  position: absolute;
+   margin: auto;
+   font-size: 35px;
+    margin-left: 16em;
+    margin-top: -3em;
+    
+   
+}
+#desc{
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 25px;
+  font-size: 15px;
+  width: 25em;
+  margin: auto;
+}
+#tags{
+  text-align: justify;
+  line-height: 25px;
+  font-size: 15px;
+  width: 25em;
+  margin: auto;
+}
+ .btn{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+  height: 15vh;
+  width: 50vh;
+  gap: 15px;
+  margin-top: 10px;
+ }
+ .btn>button{
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(237, 204, 204);
+  font-weight: bold;
+  color: white;
+  border: 0px;
+  margin: 0px;
+ }
+ .btn>button:hover{
+  font-weight: bold;
+  font-size: 23px;
+  background-color: rgb(243, 76, 162);
+ }
+ #Contactsid{
+  
+  height: 55vh;
+  width: 92%;
+   
+  position: absolute;
+   
+   margin-top: 28em;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ background-color: rgb(246, 239, 229);
+ border-radius: 20px;
+ 
+ }
+ #Contactsid>h1{
+  font-size: 30px;
+  font-weight: bold;
+  
+  margin-top: -1.5em;
+  position: absolute;
+   
+  margin-left: 21em;
+  
+ }
+ #Contactsid>p{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2em;
+ }
+ #reg{
+  font-weight: lighter;
+  margin-top: 2em;
+ }
+ #ci{
+  display: flex;
+  margin: auto;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+  width: 10%;
+  margin-top: 2em;
+  cursor: pointer;
+ }
+ /* media */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="my_i"] {
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+  }
+  #resume{
+    height: auto;
+    width: auto;
+    display: flex;
+      gap: 15px;
+    align-items:flex-start;
+    flex-direction: row;
+    margin: auto;
+    margin-top: -1em;
+    justify-content: center;
+     
+    
+   }
+   #about_str{
+    flex-direction: column;
+    
+    height: auto;
+    width: auto;
+    margin-top: 6em;
+  
+   }
+   #about_str>h1{
+    margin-top: -12em;
+    margin-left: 10em;
+   }
+   #resume>button{
+    margin-top: 2em;
+    padding: 10px 25px 15px 25px;
+   }
+   #svg{
+    display: none;
+   }
+ 
+ 
+  #Skillsid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 25px;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    margin-top: 7em;
+  }
+ #pro{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 15px;
+  margin: auto;
+  height: auto;
+  width: auto;
+  box-shadow: none;
+  margin-top: 10em;
+ }
+ #tex{
+  margin: auto;
+   margin-left: 5em;
+   margin-top: -2em;
+ }
+ #pro>div{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+ }
+ #title{
+  margin: auto;
+   margin-top: -3em;
+   margin-left: 9em;
+ }
+ #Contactsid>h1{
+  margin-top: -2em;
+
+  margin-left: 9em;
+ }
+ #Contactsid{
+  width: 100%;
+ }
+}
+
+@media only screen and (max-width: 350px){
+  .nav{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(232, 239, 245);
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .my_i>img{
+    border-radius: 50%;
+    height: 35vh;
+    width: 35vh;
+  }
+  #resume{
+    height: auto;
+    width: auto;
+    display: flex;
+      gap: 15px;
+    align-items:flex-start;
+    flex-direction: row;
+    margin: auto;
+    margin-top: -3em;
+    justify-content: center;
+     
+    
+   }
+   #resume>button{
+    margin-top: 2em;
+    padding: 10px 25px 15px 25px;
+   }
+   #svg{
+    display: none;
+   }
+   .my_i{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2em;
+   }
+   #Skillsid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 25px;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    margin-top: 19em;
+  }
+  #tex{
+    margin: auto;
+     margin-left: 1em;
+     margin-top: -3em;
+   }
+   
+   #about{
+     flex-direction: column;
+     margin: auto;
+     
+    
+   }
+   #about_str>h1{
+    position: absolute;
+    margin-top: -20em;
+    margin-left: 2em;
+   }
+   #pro{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 15px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    margin-top: 15em;
+   }
+   #title{
+    margin: auto;
+    margin-top: -2em;
+    margin-left: 2em;
+   }
+   #Contactsid>h1{
+    margin: auto;
+    margin-top: -2em;
+    margin-left: 1em;
+   }
+
+}

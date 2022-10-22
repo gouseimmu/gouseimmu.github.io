@@ -1,30 +1,45 @@
-import React from 'react'
-import { Button, Circle, Flex, Heading, HStack,Box ,Image,Text  } from '@chakra-ui/react'
- 
- 
+import React from "react";
+import "../styles.css";
+import {FaGithub ,FaLinkedin} from "react-icons/fa"
 
 const Home = () => {
   return (
-    
-    <div>
+    <div class="my_i">
       
-      
-         <HStack  id='Homeid' borderRadius={"10vh"} _hover={{ bg: "teal.50", color: " white" }} boxShadow="base" p={5} w="80%" m={"auto"} backgroundColor="ButtonShadow">
-          <Flex>
-            <Heading ml={"45vh"} mt={"10vh"} fontWeight="semibold"  color="ActiveCaption" animation={"running"}> I'm Shaik Gouse 👋</Heading>
-            <Text  fontSize={"3xl"} mt={"30vh"}  ml="-45vh" color="ActiveBorder" fontWeight={"bold"}>  ⚡️Full Stack Web Developer</Text>
-            <Circle rounded={50}>
-              <Image marginLeft={"10vh"} w="40vh" h={"40vh"}  borderRadius={"50vh"} src="https://avatars.githubusercontent.com/u/101376314?s=400&u=e9c502f3abf0c99f1c2e189579cb60a6e215ee29&v=4"/>
-            </Circle>
-           
-          </Flex>
-         
-         </HStack>
-         <Box>
-         <Button _hover={{ bg: "blue.500", color: " white" }}  fontSize={"3vh"} border={"0px"} color={"white"} mt="7vh" backgroundColor="teal" borderRadius={"50vh"}  ml="75vh" ><a href='https://drive.google.com/file/d/1uriT8K1Oa4vsXwx0e2AzIR1xV6PJOT9i/view?usp=sharing' target="_shaik">Download CV</a></Button>
-         </Box>
-    </div>
-  )
-}
+        <img
+          src="https://avatars.githubusercontent.com/u/101376314?s=400&u=e9c502f3abf0c99f1c2e189579cb60a6e215ee29&v=4"
+          alt="shaik"
+        />
 
-export default Home
+        <img
+          id="my_img"
+          src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=000000&width=435&lines=Hii%2C+I'm+Shaik Gouse  👋;Full-Stack+Web+Developer...; "
+          alt="Shaik"
+        />
+
+        <div id="resume">
+        <h1><a href="https://www.linkedin.com/in/shaik-gouse-94b50a1b8" target="_blank" rel="noopener noreferrer"  >{<FaLinkedin/>}</a></h1>
+        <h1><a href="https://github.com/gouseimmu" target="_blank" rel="noopener noreferrer"  >{<FaGithub />}</a></h1>
+          <button>
+            <a
+              href="https://drive.google.com/file/d/1uriT8K1Oa4vsXwx0e2AzIR1xV6PJOT9i/view?usp=sharing"
+              target="_shaik"
+            >
+              Resume
+            </a>
+          </button>
+          <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <g data-name="11.download">
+              <path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z" />
+              <path d="M12 14.414 7.293 9.707l1.414-1.414L12 11.586l3.293-3.293 1.414 1.414L12 14.414z" />
+              <path d="M11 5h2v8h-2zM17 19H7v-3h2v1h6v-1h2v3z" />
+            </g>
+          </svg>
+
+        </div>
+      </div>
+     
+  );
+};
+
+export default Home;
