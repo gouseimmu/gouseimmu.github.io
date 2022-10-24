@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4df1d274.css",
+    "main.css": "/static/css/main.6b912c5b.css",
     "main.js": "/static/js/main.d1ee23b9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Shaik-Gouse Mohiddin-Resume.pdf": "/static/media/Shaik-Gouse Mohiddin-Resume.d9e06f20ddb8778961d8.pdf",
     "index.html": "/index.html",
-    "main.4df1d274.css.map": "/static/css/main.4df1d274.css.map",
+    "main.6b912c5b.css.map": "/static/css/main.6b912c5b.css.map",
     "main.d1ee23b9.js.map": "/static/js/main.d1ee23b9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4df1d274.css",
+    "static/css/main.6b912c5b.css",
     "static/js/main.d1ee23b9.js"
   ]
 }
