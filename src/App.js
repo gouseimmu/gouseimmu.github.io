@@ -1,4 +1,5 @@
 import "./styles.css";
+import Resume from "./Components/ResumeFile/Shaik-Gouse Mohiddin-Resume.pdf"
 import { Link } from "react-scroll";
 import About from "../src/Components/About";
 import Home from "./Components/Home";
@@ -6,12 +7,15 @@ import Home from "./Components/Home";
 import { Skills } from "../src/Components/Skills";
 import { Projects } from "../src/Components/Projects";
 import Contact from "../src/Components/Contact";
+//import { useState } from "react";
 
 export default function App() {
+ 
   return (
     <div className="App">
       <header className="nav">
         <nav className="nav__container__actions">
+          
           <ul>
             <li>
               <Link activeClass="active" smooth spy to="home">
@@ -39,10 +43,7 @@ export default function App() {
               </Link>
             </li>
             <li>
-              <a  
-                href="https://drive.google.com/file/d/1uriT8K1Oa4vsXwx0e2AzIR1xV6PJOT9i/view?usp=sharing"
-                target="_shaik"
-              >
+              <a href={Resume} download>
                 RESUME
               </a>
             </li>

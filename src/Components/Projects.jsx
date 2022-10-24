@@ -1,6 +1,10 @@
 import React from "react";
 
+
+
 const Projects = () => {
+
+ 
   const projectsdata = [
     {
       id: 1,
@@ -37,14 +41,14 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "E-commerce Website",
+      title: "YouTube Clone",
       about:
-        "This is a ramdom project I am using to React.JS,Javascript, HTML/CSS.This is portfolio website and I hope you are enjoying this portfolio.Make sure you like and comment if you have any doubt",
-      tags: "ReactJS, Javascript, Firebase, Portfolio",
-      demo: "https://github.com/ThantZinPhyo-OP/Portfolio-Website",
-      github: "https://github.com/ThantZinPhyo-OP/Portfolio-Website",
+        "I have Cloned a mini You-tube app where we can watch youtube videos without advertisements.",
+      tags: "HTML,CSS, Advance Javascript (ES6), Fetch API",
+      demo: "https://grand-melba-a4afe4.netlify.app/",
+      github: "https://github.com/gouseimmu/Youtube",
       image:
-        "https://github.com/ThantZinPhyo-OP/Portfolio-Website/raw/main/home.png",
+        "https://download.logo.wine/logo/YouTube/YouTube-Logo.wine.png",
     },
   ];
 
@@ -70,9 +74,11 @@ const Projects = () => {
           </div>
         );
       })}
+       
 
       </div>
  )
     }
 
 export { Projects };
+  
