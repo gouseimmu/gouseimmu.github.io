@@ -25,12 +25,12 @@ function Skills() {
       id: 4,
       name: "REACT",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207",
+        "https://www.svgrepo.com/show/327388/logo-react.svg",
     },
     {
       id: 5,
       name: "REDUX",
-      image: " https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png  ",
+      image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
     },
     {
       id: 6,
@@ -47,7 +47,7 @@ function Skills() {
     {
       id:7,
       name : "GIT",
-      image:"https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+      image:"https://e7.pngegg.com/pngimages/306/37/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-miscellaneous-text-thumbnail.png",
 
     },
    
