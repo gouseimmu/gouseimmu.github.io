@@ -1,3 +1,4 @@
+import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
@@ -20,13 +21,26 @@ const Stats = () => {
   };
   return (
     <div id="stats">
-      <div>
-        <h3>Stats</h3>
+      <Text textAlign={"center"} fontWeight={"bold"} fontSize={"30px"} mb="20px">
+        GITHUB STATS
+      </Text>
+      <SimpleGrid columns={[1, 1, 2, 2]} spacing={10}  alignItems={"center"} >
+        <Box m={"auto"} p={"15px"}>
+
+       
+        <a
+          href="https://github.com/gouseimmu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com?user=gouseimmu&theme=dark"
+            alt="_stats"
+          />
+        </a>
+        </Box>
+        <Box m={"auto"} p={"15px"}>
         <GitHubCalendar
-          style={{
-            marginTop:"1em",
-            width: "100%",
-          }}
           username="gouseimmu"
           transformData={selectLastHalfYear}
           hideTotalCount
@@ -34,20 +48,8 @@ const Stats = () => {
         >
           <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
-      </div>
-      <div  >
-        <a
-          href="https://github.com/gouseimmu"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-           id="streaki"
-            src="https://github-readme-streak-stats.herokuapp.com?user=gouseimmu&theme=dark"
-            alt="_stats"
-          />
-        </a>
-      </div>
+        </Box>
+      </SimpleGrid>
     </div>
   );
 };
