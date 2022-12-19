@@ -105,7 +105,7 @@ const Navbar = () => {
             <Link activeClass="active" smooth spy to="contact">
               Contact
             </Link>
-            <a href="https://drive.google.com/file/d/1Vf4IFTvVt7ix-WO8ASZZ-We8xelPDbb3/view?usp=share_link">
+            <a href="https://drive.google.com/file/d/1Vf4IFTvVt7ix-WO8ASZZ-We8xelPDbb3/view?usp=share_link" target="_blank">
               Resume
             </a>
           </Flex>
