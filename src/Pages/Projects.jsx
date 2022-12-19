@@ -87,7 +87,7 @@ const Projects = () => {
          boxShadow="rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"
        >
          <Image
-           src="https://img1.pnghut.com/7/3/18/0hGf2rSDSW/lifestyle-logo-brand-promotional-merchandise-post-cards.jpg"
+           src="https://i0.wp.com/themes.svn.wordpress.org/clothing-store/0.2.1/screenshot.png"
            w={["100%", "100%", "100%", "50%"]}
            h="70%"
            objectFit="fill"

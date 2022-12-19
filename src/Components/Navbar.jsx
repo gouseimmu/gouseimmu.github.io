@@ -105,9 +105,9 @@ const Navbar = () => {
             <Link activeClass="active" smooth spy to="contact">
               Contact
             </Link>
-            <Link activeClass="active" smooth spy to="home">
+            <a href="https://drive.google.com/file/d/1Vf4IFTvVt7ix-WO8ASZZ-We8xelPDbb3/view?usp=share_link">
               Resume
-            </Link>
+            </a>
           </Flex>
         </SimpleGrid>
       </Show>
