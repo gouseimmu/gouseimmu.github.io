@@ -11,18 +11,6 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { FaTelegramPlane, FaGithub } from "react-icons/fa";
-// const cardStyle = {
-//   borderRadius: "10px",
-//   // border: "1px Solid black",
-//   textAlign: "left",
-//   padding: "5%",
-//   boxShadow: " #9b37ff 0px 2px 4px 0px inset",
-//   backgroundColor: "whitesmoke",
-//   color: "#1A1A1D",
-// };
-// const imgcardstyle = {
-//   marginTop: "-113px",
-// };
 
 const Projects = () => {
   return (
@@ -36,6 +24,7 @@ const Projects = () => {
           boxShadow="rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"
         >
           <Image
+          alt="name"
             src="https://play-lh.googleusercontent.com/D82omFSKvRExAz6bUEQrwTdVRgImhf1xgSqH6ApFMRJUzpxkJ9tfCNmZ01uha2ME7v8"
             w={["100%", "100%", "100%", "50%"]}
             h="70%"
@@ -43,25 +32,25 @@ const Projects = () => {
           />
           <Stack
             w={["100%", "100%", "100%", "50%"]}
-            bg="#111111"
+            bg="lightblue"
             p="5%"
             textAlign="left"
             spacing={5}
           >
-            <Heading fontSize="25px" color="white">
-              GeekBuying (E-Commerce Website)
+            <Heading fontSize="25px" color="black">
+              GeekBuying Clone (E-Commerce Website)
             </Heading>
-            <Text color="lightgray" fontSize="14px">
+            <Text color="black" fontSize="14px">
               We have built a E-commerce Website where users able to shop
               different kinds of products.
             </Text>
-            <Text color="lightgray" fontSize="14px">
+            <Text color="black" fontSize="14px">
               Areas of Responsibility : Product Detail Page
             </Text>
-            <Text color="lightgray" fontSize="14px">
+            <Text color="black" fontSize="14px">
               Collaborative project with 5 team-members, executed in 5 days.
             </Text>
-            <Text color="lightgray" fontSize="14px">
+            <Text color="black" fontWeight={"bold"} fontSize="14px">
               Tech Stack : React JS| Redux | JSON-SERVER | CSS | CHAKRA UI
             </Text>
 
@@ -77,7 +66,7 @@ const Projects = () => {
                   </Flex>
                 </Link>
               </Button>
-              <Button size="xs" colorScheme="red">
+              <Button size="xs" colorScheme="orange">
                 <Link
                   href="https://the-great-tarunu88-gmail-com-site-a4747.netlify.app/"
                   target="_blank"
@@ -98,39 +87,38 @@ const Projects = () => {
          boxShadow="rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"
        >
          <Image
-           src="https://play-lh.googleusercontent.com/D82omFSKvRExAz6bUEQrwTdVRgImhf1xgSqH6ApFMRJUzpxkJ9tfCNmZ01uha2ME7v8"
+           src="https://img1.pnghut.com/7/3/18/0hGf2rSDSW/lifestyle-logo-brand-promotional-merchandise-post-cards.jpg"
            w={["100%", "100%", "100%", "50%"]}
            h="70%"
            objectFit="fill"
          />
          <Stack
            w={["100%", "100%", "100%", "50%"]}
-           bg="#111111"
+           bg="lightblue"
            p="5%"
            textAlign="left"
            spacing={5}
          >
-           <Heading fontSize="25px" color="white">
-             GeekBuying (E-Commerce Website)
+           <Heading fontSize="25px" color="black">
+             LifeStyle Clone (E-Commerce Website)
            </Heading>
-           <Text color="lightgray" fontSize="14px">
-             We have built a E-commerce Website where users able to shop
-             different kinds of products.
+           <Text color="black" fontSize="14px">
+           LifeStyle Store is a ecommerce web application that allows you to purchase different types of mens , womens , kids and shoeswares products.
            </Text>
-           <Text color="lightgray" fontSize="14px">
-             Areas of Responsibility : Product Detail Page
+           <Text color="black" fontSize="14px">
+             Areas of Responsibility : Admin Site
            </Text>
-           <Text color="lightgray" fontSize="14px">
+           <Text color="black" fontSize="14px">
              Collaborative project with 5 team-members, executed in 5 days.
            </Text>
-           <Text color="lightgray" fontSize="14px">
-             Tech Stack : React JS| Redux | JSON-SERVER | CSS | CHAKRA UI
+           <Text color="black" fontWeight={"bold"} fontSize="14px">
+             Tech Stack : React JS| Redux | REST API | REDUX-THUNK | CHAKRA UI | AXIOS
            </Text>
 
            <Flex gap={3} align="center">
              <Button size="xs" colorScheme="green">
                <Link
-                 href="https://github.com/tarun-upadhyay/sensitive-meat-4664"
+                 href="https://github.com/gouseimmu/incompetent-act-9106"
                  target="_blank"
                >
                  <Flex align="center" gap={2}>
@@ -139,9 +127,9 @@ const Projects = () => {
                  </Flex>
                </Link>
              </Button>
-             <Button size="xs" colorScheme="red">
+             <Button size="xs" colorScheme="orange">
                <Link
-                 href="https://the-great-tarunu88-gmail-com-site-a4747.netlify.app/"
+                 href="https://639feae4fceb1417b7a7f999--lifestyylestore.netlify.app/"
                  target="_blank"
                >
                  <Flex align="center" gap={2}>
@@ -168,26 +156,26 @@ const Projects = () => {
           />
           <Stack
             w={["100%", "100%", "100%", "50%"]}
-            bg="#111111"
+            bg="lightblue"
             p="5%"
             textAlign="left"
             spacing={5}
           >
-            <Heading fontSize="25px" color="white">
-              StyleCraze.com
+            <Heading fontSize="25px" color="black">
+              StyleCraze Clone
             </Heading>
-            <Text color="lightgray" fontSize="14px">
+            <Text color="black" fontSize="14px">
               Stylecraze.com is a website where clients able to purchase
               different types of cosmetics.
             </Text>
-            <Text color="lightgray" fontSize="14px">
+            <Text color="black" fontSize="14px">
               Areas of Responsibility : Product Pages(Makeup, SkinCare,
               HairCare)
             </Text>
-            <Text color="lightgray" fontSize="14px">
-              Collaborative project with 6 team-members, executed in 5 days.
+            <Text color="black" fontSize="14px">
+              Collaborative project with 5 team-members, executed in 5 days.
             </Text>
-            <Text color="lightgray" fontSize="14px">
+            <Text color="black" fontWeight={"bold"} fontSize="14px">
               Tech Stack : Javascript(ES6) | HTML5 | CSS3 | Fetch API
             </Text>
             <Flex gap={3} align="center">
@@ -202,7 +190,7 @@ const Projects = () => {
                   </Flex>
                 </Link>
               </Button>
-              <Button size="xs" colorScheme="red">
+              <Button size="xs" colorScheme="orange">
                 <Link
                   href="https://wonderful-arithmetic-ff3a3a.netlify.app/"
                   target="_blank"
@@ -232,24 +220,22 @@ const Projects = () => {
           />
           <Stack
             w={["100%", "100%", "100%", "50%"]}
-            bg="#111111"
+            bg="lightblue"
             p="5%"
             textAlign="left"
             spacing={5}
           >
-            <Heading fontSize="25px" color="white">
+            <Heading fontSize="25px" color="black">
               Boat Website Clone
             </Heading>
-            <Text color="lightgray" fontSize="14px">
-              Lumen5.com is a video creation website that helps marketers,
-              publishers, and brands create video content in a breeze, without
-              any technical expertise.
+            <Text color="black" fontSize="14px">
+               Boat is a famous website where customers able to purchase different types of electronic gadgets.
             </Text>
-            <Text color="lightgray" fontSize="14px">
-              Collaborative project with 6 team-members, executed in 5 days.
+            <Text color="black" fontSize="14px">
+              Collaborative project with 5 team-members, executed in 5 days.
             </Text>
-            <Text color="lightgray" fontSize="14px">
-              Tech Stack : React | Chakra UI | JavaScript | HTML | CSS
+            <Text color="black" fontWeight={"bold"} fontSize="14px">
+              Tech Stack :  Fetch API | JavaScript(ES6) | HTML | CSS
             </Text>
             <Flex gap={3} align="center">
               <Button size="xs" colorScheme="green">
@@ -263,7 +249,7 @@ const Projects = () => {
                   </Flex>
                 </Link>
               </Button>
-              <Button size="xs" colorScheme="red">
+              <Button size="xs" colorScheme="orange">
                 <Link
                   href="https://reliable-salmiakki-d3ab17.netlify.app/"
                   target="_blank"
@@ -283,76 +269,3 @@ const Projects = () => {
 };
 
 export default Projects;
-// const Projects = () => {
-
-//   const projectsdata = [
-//     {
-//       id: 1,
-//       title: "GeekBuying.com (E-com Website)",
-//       about:
-//         "We have built a E-commerce Website where users able to shop different kinds of products.",
-//       tags: "ReactJS, REDUX, JSON, CHAKRA UI",
-//       demo: "https://the-great-tarunu88-gmail-com-site-a4747.netlify.app/",
-//       github: "https://github.com/tarun-upadhyay/sensitive-meat-4664",
-//       image:
-//         "https://play-lh.googleusercontent.com/D82omFSKvRExAz6bUEQrwTdVRgImhf1xgSqH6ApFMRJUzpxkJ9tfCNmZ01uha2ME7v8",
-//     },
-
-//     {
-//       id: 2,
-//       title: "Boat Website Clone",
-//       about:
-//         "Boat is a famous electronic gadgets website where customers able to shop the boat premium boat products.",
-//       tags: "HTML5, CSS3, Javascript(ES6), FETCH API ",
-//       demo: "https://reliable-salmiakki-d3ab17.netlify.app/",
-//       github: "https://github.com/Anantk05/boat-lifestyle.com-Clone",
-//       image:
-//         "https://resize.indiatvnews.com/en/resize/newbucket/740_-/2022/06/boat-airdopes-601-anc-boat-website-1655721470.jpg",
-//     },
-//     {
-//       id: 3,
-//       title: "StyleCraze.com",
-//       about:
-//         "Stylecraze.com is a website where clients able to purchase different types of cosmetics.",
-//       tags: "HTML5, CSS3, Javascript(ES6), FETCH API",
-//       demo: "https://wonderful-arithmetic-ff3a3a.netlify.app/",
-//       github: "https://github.com/ChanduDhakad/misty-act-3451",
-//       image:
-//         "https://site-images.similarcdn.com/image?url=stylecraze.com&t=1&s=1&h=d4fed1d9b7b90d05a6841bf5a88ffb7942ae1d15e9f12cda18229c21ac477b14",
-//     },
-
-//     {
-//       id: 4,
-//       title: "E-commerce Website",
-//       about:
-//         "Uboric.com is an E-commerce website where customers able to purchase the mens, womens wear and footwear products.",
-//       tags: " HTML5, CSS3, Javascript(ES6)",
-//       demo: "https://curious-donut-e64880.netlify.app/",
-//       github: "https://github.com/priyarajawat/team-project-work",
-//       image:
-//         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpAcgYn8P-zpcUQANBMadeJx_QjGnOD0nLsQ&usqp=CAU",
-//     },
-//   ];
-
-//   return (
-//     <div id="pro">
-//       <h1 id="title">My Projects</h1>
-
-//       {projectsdata.map((ele) => {
-//         return (
-//           <div key={ele.id}>
-//             <img id="proimg" src={ele.image} alt={ele.name} />
-//             <h1 id="pt" >{ele.title}</h1>
-//             <p id="desc">{ele.about}</p>
-//            <p id="tags">Tech Stack - {ele.tags}</p>
-//             <div class="btn">
-//             <button>
-//               <a href={ele.demo} target="_blank" rel="noreferrer">LIVE</a>
-//             </button>
-//             <button>
-//               <a href={ele.github} target="_blank" rel="noreferrer">GITHUB</a>
-//             </button>
-//             </div>
-//           </div>
-//         );
-//       })}

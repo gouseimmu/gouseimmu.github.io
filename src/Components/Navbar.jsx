@@ -1,36 +1,32 @@
-import React  from "react";
+import React from "react";
 // import Resume from "./ResumeFile/Shaik-Gouse Mohiddin-Resume.pdf"
- 
+
 import {
   SimpleGrid,
   Drawer,
- 
   DrawerContent,
-  
   Flex,
-   
   Stack,
   useDisclosure,
   Show,
- 
 } from "@chakra-ui/react";
 import { MdMenu } from "react-icons/md";
-import { Link  } from "react-scroll";
+import { Link } from "react-scroll";
 import "../style/navbar.css";
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
- 
+
   const navstyle = {
     position: "fixed",
     top: "0",
     display: "block",
     overflow: "hidden",
-    // transition: "top 0.3s",
+    transition: "top 0.3s",
     width: "100%",
     zIndex: 2,
   };
- 
+
   return (
     <Stack style={navstyle} bg="black" p={2} color="white">
       <Show below="lg">
@@ -71,7 +67,9 @@ const Navbar = () => {
                 <Link activeClass="active1" smooth spy to="contact">
                   Contact
                 </Link>
-              
+                <Link activeClass="active1" smooth spy to="home">
+                  Home
+                </Link>
               </Flex>
             </SimpleGrid>
           </DrawerContent>
@@ -102,21 +100,14 @@ const Navbar = () => {
               Skills
             </Link>
             <Link activeClass="active" smooth spy to="projects">
-              Project
+              Projects
             </Link>
             <Link activeClass="active" smooth spy to="contact">
               Contact
             </Link>
-            <Link activeClass="active" smooth spy to="resume">
-              
-         <div>
-          <a href= "https://drive.google.com/file/d/1Vf4IFTvVt7ix-WO8ASZZ-We8xelPDbb3/view?usp=share_link" target="_blank" rel="no-opener noreferrer"  >Resume</a>
-         </div>
-           
-          
-          
+            <Link activeClass="active" smooth spy to="home">
+              Resume
             </Link>
-           
           </Flex>
         </SimpleGrid>
       </Show>
