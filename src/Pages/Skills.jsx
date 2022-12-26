@@ -19,47 +19,8 @@ const Skills = () => {
   return (
     <Box>
     <Stack id="skill" pt={10} pb="10%" spacing={["40%", "5%", "5%", "3%"]}>
-      <Stack>
-        
-        <Heading>WHAT I DO ?</Heading>
-      </Stack>
-      <SimpleGrid
-        id="skillDo"
-        align="center"
-        justify="center"
-        color="gray"
-        rowGap={"15%"}
-        columnGap={"3%"}
-        p={10}
-        columns={[1, 3, 3, 3]}
-      >
-        <Box>
-          <Box className="hexagon">
-            <span>
-              <SiFrontendmentor />
-            </span>
-          </Box>
-          <Text>Front-End Development </Text>
-        </Box>
-        <Box>
-          <Box className="hexagon">
-            <span>
-              <FiDatabase />
-            </span>
-          </Box>
-
-          <Text>Back-End Development</Text>
-        </Box>
-        <Box>
-          <Box className="hexagon">
-            <span>
-              <BsPuzzle />
-            </span>
-          </Box>
-
-          <Text>Data Structures & Algorithms</Text>
-        </Box>
-      </SimpleGrid>
+   
+      
       <Stack spacing="4%">
         <Text textAlign={"center"} fontSize={"25px"} color="black" fontWeight="bold">
           TECHNICAL SKILLS

@@ -34,7 +34,7 @@ const Stats = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://github-readme-streak-stats.herokuapp.com?user=gouseimmu&theme=dark"
+            src="https://github-readme-streak-stats.herokuapp.com?user=gouseimmu&theme=dark&hide_border=true"
             alt="_stats"
           />
         </a>

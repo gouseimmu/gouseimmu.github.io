@@ -44,7 +44,7 @@ const Projects = () => {
               We have built a E-commerce Website where users able to shop
               different kinds of products.
             </Text>
-            <Text color="black" fontSize="14px">
+            <Text color="black" fontSize="14px" fontWeight={"bold"}>
               Areas of Responsibility : Product Detail Page
             </Text>
             <Text color="black" fontSize="14px">
@@ -105,7 +105,7 @@ const Projects = () => {
            <Text color="black" fontSize="14px">
            LifeStyle Store is a ecommerce web application that allows you to purchase different types of mens , womens , kids and shoeswares products.
            </Text>
-           <Text color="black" fontSize="14px">
+           <Text color="black" fontSize="14px" fontWeight={"bold"}>
              Areas of Responsibility : Admin Site
            </Text>
            <Text color="black" fontSize="14px">
@@ -129,7 +129,7 @@ const Projects = () => {
              </Button>
              <Button size="xs" colorScheme="orange">
                <Link
-                 href="https://639feae4fceb1417b7a7f999--lifestyylestore.netlify.app/"
+                 href="https://lifestyylestoree.netlify.app/"
                  target="_blank"
                >
                  <Flex align="center" gap={2}>
@@ -168,7 +168,7 @@ const Projects = () => {
               Stylecraze.com is a website where clients able to purchase
               different types of cosmetics.
             </Text>
-            <Text color="black" fontSize="14px">
+            <Text color="black" fontSize="14px" fontWeight={"bold"}>
               Areas of Responsibility : Product Pages(Makeup, SkinCare,
               HairCare)
             </Text>
@@ -230,6 +230,9 @@ const Projects = () => {
             </Heading>
             <Text color="black" fontSize="14px">
                Boat is a famous website where customers able to purchase different types of electronic gadgets.
+            </Text>
+            <Text color="black" fontSize="14px" fontWeight={"bold"}>
+              Areas of Responsibility : Login/SignUp Authentication
             </Text>
             <Text color="black" fontSize="14px">
               Collaborative project with 5 team-members, executed in 5 days.
