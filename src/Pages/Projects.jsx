@@ -207,6 +207,9 @@ const Projects = () => {
           </Stack>
         </Flex>
         {/* .................................. */}
+        
+
+        {/* .................................. */}
         <Flex
           // h={["600px", "600px", "480px", "480px"]}
           flexDirection={["column", "column", "column", "row"]}
@@ -214,9 +217,9 @@ const Projects = () => {
           boxShadow="rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"
         >
           <Image
-            src="https://cdn2.stylecraze.com/wp-content/uploads/2020/09/60-Most-Trending-Nail-Art-Designs-For-Short-Nails--2022.jpg.webp"
+            src= "https://i.ibb.co/vqT95zg/boa.jpg"
             w={["100%", "100%", "100%", "50%"]}
-            h="70%"
+            h="80%"
             objectFit="fill"
           />
           <Stack
@@ -227,26 +230,25 @@ const Projects = () => {
             spacing={5}
           >
             <Heading fontSize="25px" color="black">
-              StyleCraze Clone
+              Boat Website Clone
             </Heading>
             <Text color="black" fontSize="14px">
-              Stylecraze.com is a website where clients able to purchase
-              different types of cosmetics.
+              Boat is a famous website where customers able to purchase
+              different types of electronic gadgets.
             </Text>
             <Text color="black" fontSize="14px" fontWeight={"bold"}>
-              Areas of Responsibility : Product Pages(Makeup, SkinCare,
-              HairCare)
+              Areas of Responsibility : Login/SignUp Authentication
             </Text>
             <Text color="black" fontSize="14px">
               Collaborative project with 5 team-members, executed in 5 days.
             </Text>
             <Text color="black" fontWeight={"bold"} fontSize="14px">
-              Tech Stack : Javascript(ES6) | HTML5 | CSS3 | Fetch API
+              Tech Stack : Fetch API | JavaScript(ES6) | HTML | CSS
             </Text>
             <Flex gap={3} align="center">
               <Button size="xs" colorScheme="green">
                 <Link
-                  href="https://github.com/ChanduDhakad/misty-act-3451"
+                  href="https://github.com/Anantk05/boat-lifestyle.com-Clone"
                   target="_blank"
                 >
                   <Flex align="center" gap={2}>
@@ -257,7 +259,7 @@ const Projects = () => {
               </Button>
               <Button size="xs" colorScheme="orange">
                 <Link
-                  href="https://wonderful-arithmetic-ff3a3a.netlify.app/"
+                  href="https://reliable-salmiakki-d3ab17.netlify.app/"
                   target="_blank"
                 >
                   <Flex align="center" gap={2}>
@@ -269,9 +271,6 @@ const Projects = () => {
             </Flex>
           </Stack>
         </Flex>
-
-        {/* .................................. */}
-       
         
       </SimpleGrid>
     </Stack>
@@ -279,3 +278,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+ 

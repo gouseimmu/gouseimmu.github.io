@@ -80,7 +80,7 @@ const Contact = () => {
               <IoIosCall />
             </Box>
             <Text fontSize={["12px", "16px", "18px", "20px"]} color="gray">
-              +91 7386756120
+              +91 8099396320
             </Text>
           </Flex>
           <Flex align="center" gap={3}>
