@@ -1,5 +1,5 @@
 import React from "react";
-// import Resume from "./ResumeFile/Shaik-Gouse Mohiddin-Resume.pdf"
+import Resume from "../Components/ResumeFile/Shaik-Gouse Mohiddin-Resume.pdf"
 
 import {
   SimpleGrid,
@@ -9,6 +9,8 @@ import {
   Stack,
   useDisclosure,
   Show,
+  Button,
+   
 } from "@chakra-ui/react";
 import { MdMenu } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -26,6 +28,10 @@ const Navbar = () => {
     width: "100%",
     zIndex: 2,
   };
+  const Download=()=>{
+      window.open("https://drive.google.com/file/d/1Vf4IFTvVt7ix-WO8ASZZ-We8xelPDbb3/view?usp=share_link")
+  }
+ 
 
   return (
     <Stack style={navstyle} bg="black" p={2} color="white">
@@ -45,6 +51,7 @@ const Navbar = () => {
               justify="space-between"
               id="navbar"
             >
+               
               <Flex
                 align="center"
                 justify="right"
@@ -67,9 +74,14 @@ const Navbar = () => {
                 <Link activeClass="active1" smooth spy to="contact">
                   Contact
                 </Link>
-                <Link activeClass="active1" smooth spy to="home">
-                  Home
-                </Link>
+                <a
+              href={Resume}
+               target="_blank" download ={Resume}
+            >
+              <Button   colorScheme='red' variant='solid'>
+         Resume
+        </Button>
+            </a>
               </Flex>
             </SimpleGrid>
           </DrawerContent>
@@ -105,8 +117,13 @@ const Navbar = () => {
             <Link activeClass="active" smooth spy to="contact">
               Contact
             </Link>
-            <a href="https://drive.google.com/file/d/1Vf4IFTvVt7ix-WO8ASZZ-We8xelPDbb3/view?usp=share_link" target="_blank">
-              Resume
+            <a
+              href={Resume}
+              download
+            >
+              <Button onClick={Download}  colorScheme='red' variant='solid'>
+         Resume
+        </Button>
             </a>
           </Flex>
         </SimpleGrid>

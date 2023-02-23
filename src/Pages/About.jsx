@@ -29,14 +29,13 @@ const About = () => {
             </Text>
 
             <Text color={"black"}>
-              I'm a Passionate Full-Stack Web Developer with Skills React,
-              Redux, HTML, CSS3, JavaScript, NPM, GIT etc... Adaptive to all
+              I'm a Passionate Full-Stack Web Developer with Skills in React,
+              Redux, HTML, CSS3, JavaScript, NPM, GIT, etc... Adaptive to all
               kinds of people and surroundings and always appreciate
-              constructive criticism to improve my performance.Able to write
-              production ready clean code by using frontend technologies. Having
-              very Strong Passion towards coding and eager to learn and enhance
-              my skills and explore my skills in the Product based organization
-              and want to contribute to the big projects.
+              constructive criticism to improve my performance. Having very
+              Strong Passion for coding and eagerness to learn and enhance my
+              skills and explore them in an organization.
+          
             </Text>
             <Text fontSize="40px" textAlign="center" color="red" ml="90%">
               <ImQuotesRight />

@@ -3,22 +3,22 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
 const Stats = () => {
-  const selectLastHalfYear = (contributions) => {
-    const currentYear = new Date().getFullYear();
-    const currentMonth = new Date().getMonth();
-    const shownMonths = 7;
+  // const selectLastHalfYear = (contributions) => {
+  //   const currentYear = new Date().getFullYear();
+  //   const currentMonth = new Date().getMonth();
+  //   const shownMonths = 10;
 
-    return contributions.filter((day) => {
-      const date = new Date(day.date);
-      const monthOfDay = date.getMonth();
+  //   return contributions.filter((day) => {
+  //     const date = new Date(day.date);
+  //     const monthOfDay = date.getMonth();
 
-      return (
-        date.getFullYear() === currentYear &&
-        monthOfDay > currentMonth - shownMonths &&
-        monthOfDay <= currentMonth
-      );
-    });
-  };
+  //     return (
+  //       date.getFullYear() === currentYear &&
+  //       monthOfDay > currentMonth - shownMonths &&
+  //       monthOfDay <= currentMonth
+  //     );
+  //   });
+  // };
   return (
     <div id="stats">
       <Text textAlign={"center"} fontWeight={"bold"} fontSize={"30px"} mb="20px">
@@ -40,11 +40,12 @@ const Stats = () => {
         </a>
         </Box>
         <Box m={"auto"} p={"15px"}>
-        <GitHubCalendar
+        <GitHubCalendar 
           username="gouseimmu"
-          transformData={selectLastHalfYear}
-          hideTotalCount
-          hideColorLegend
+          year={2022}
+          
+           
+           
         >
           <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
