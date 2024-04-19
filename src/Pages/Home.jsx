@@ -1,5 +1,5 @@
  
- import Resume from "../Components/ResumeFile/Shaik-Gouse Mohiddin-Resume.pdf"
+ import Resume from "../Components/ResumeFile/Shaik Gouse Mohiddin_resume.pdf"
 import { Box, Button,   Text, Stack,   Flex, Link } from '@chakra-ui/react'
 import { ArrowForwardIcon } from "@chakra-ui/icons"
 import React from 'react'
@@ -9,15 +9,17 @@ import "../style/home.css"
 
 const Home = () => {
   return (
-    <Box>
+    <Box id="home">
 
-<Stack id="home" bg="black" pt="13%" pb="13%" spacing={5}>
+<Stack  bg="black" pt="13%" pb="13%" spacing={5}>
         <Flex align="center" justify="center">
           <Stack align="center" justify="center" spacing={5}>
 
             <Text color="skyblue" fontSize="30px">
                @!🙋!@
             </Text>
+            {/* <h1 id="user-detail-name">Shaik Gouse</h1>
+    <p id="user-detail-intro">Software Developer</p> */}
             <img   src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=FFFFFF&width=565&lines=Hii%2C+I'm+Shaik Gouse  👋;Full-Stack+Web+Developer..." alt="name" />
             {/* <Heading color="white" fontSize={["50px", "60px", "70px", "90px"]}>
              SHAIK GOUSE
@@ -32,11 +34,13 @@ const Home = () => {
               <Text>FULL STACK WEB </Text>
               <Text id="txt">DEVELOPER</Text>
             </Flex> */}
-            <Link
+              <Link
               href={Resume}
+              id="resume-link-2"
+              class="nav-link resume"
               target="_blank" download
             >
-              <Button rightIcon={<ArrowForwardIcon />} colorScheme='red' variant='solid'>
+              <Button id="resume-button-2" rightIcon={<ArrowForwardIcon />} colorScheme='red' variant='solid'>
          View Resume
         </Button>
             </Link>

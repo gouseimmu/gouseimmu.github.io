@@ -21,35 +21,51 @@ const Stats = () => {
   // };
   return (
     <div id="stats">
-      <Text textAlign={"center"} fontWeight={"bold"} fontSize={"30px"} mb="20px">
+      <Text
+        textAlign={"center"}
+        fontWeight={"bold"}
+        fontSize={"30px"}
+        mb="20px"
+      >
         GITHUB STATS
       </Text>
-      <SimpleGrid columns={[1, 1, 2, 2]} spacing={10}  alignItems={"center"} >
-        <Box m={"auto"} p={"15px"}>
-
-       
-        <a
-          href="https://github.com/gouseimmu"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://github-readme-streak-stats.herokuapp.com?user=gouseimmu&theme=dark&hide_border=true"
-            alt="_stats"
-          />
-        </a>
-        </Box>
-        <Box m={"auto"} p={"15px"}>
-        <GitHubCalendar 
-          username="gouseimmu"
-          year={2022}
+      <SimpleGrid columns={[1, 1, 2, 2]} spacing={10} alignItems={"center"}>
+        <Box m={"auto"} p={"15px"} >
           
+            <img
+              id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com?user=gouseimmu&theme=dark&hide_border=true"
+              alt="_stats"    srcset=""
+            />
            
-           
-        >
-          <ReactTooltip delayShow={20} html />
-        </GitHubCalendar>
         </Box>
+        <Box m={"auto"} p={"15px"}>
+          <img
+            alt="Gouseimmu"
+            src="https://github-readme-activity-graph.cyclic.app/graph?username=gouseimmu&bg_color=0D1117&color=42a5f5&line=42a5f5&point=FFFFFF&hide_border=true&"
+          />
+        </Box>
+
+        <Box m={"auto"} p={"15px"} class="react-activity-calendar">
+          <GitHubCalendar username="gouseimmu" year={2022} class="react-activity-calendar">
+            <ReactTooltip delayShow={20} html />
+          </GitHubCalendar>
+        </Box>
+        <Box m={"auto"} p={"15px"}>
+          <img
+            id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=gouseimmu&count_private=true&show_icons=true"
+            alt="d"
+          />
+        </Box>
+        <Box m={"auto"} p={"15px"}>
+          <img
+            id="github-top-langs"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=gouseimmu&show_icons=true&count_private=true"
+            alt="lang"
+          />
+        </Box>
+        
       </SimpleGrid>
     </div>
   );

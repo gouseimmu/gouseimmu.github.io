@@ -25,9 +25,12 @@ const Contact = () => {
     cursor: "pointer",
   };
   return (
-    <Stack id="contact" pb={10} pt={2} bg="black" spacing={5}>
+    <section id="contact"  >
+
+  
+    <Stack    pb={10} pt={2} bg="black" spacing={5}>
      
-      <Text textAlign={"center"} color="gray" fontWeight="bold">
+      <Text textAlign={"center"} color="gray" fontWeight="bold"    >
         CONTACT ME
       </Text>
       <Heading textAlign={"center"} color="lightgray">Get in Touch</Heading>
@@ -41,9 +44,10 @@ const Contact = () => {
           color="white"
         > */}
         <Stack     w="50%" fontSize="30px" spacing={5} p={5}>
-          <Flex align="center" gap={3}>
+          <Flex align="center" gap={3} class="contact-list">
             <Box style={iconstyle} _hover={iconhover}>
               <Link
+              id="contact-github"
                 href="https://github.com/gouseimmu"
                 target="_blank"
               >
@@ -59,6 +63,7 @@ const Contact = () => {
           <Flex align="center" gap={3}>
             <Box style={iconstyle} _hover={iconhover}>
               <Link
+              id="contact-linkedin"
                 href="https://www.linkedin.com/in/sumeet-more-368322230/"
                 target="_blank"
               >
@@ -79,7 +84,7 @@ const Contact = () => {
             <Box style={iconstyle} _hover={iconhover}>
               <IoIosCall />
             </Box>
-            <Text fontSize={["12px", "16px", "18px", "20px"]} color="gray">
+            <Text fontSize={["12px", "16px", "18px", "20px"]} color="gray" id="contact-phone">
               +91 8099396320
             </Text>
           </Flex>
@@ -87,12 +92,12 @@ const Contact = () => {
             <Box style={iconstyle} _hover={iconhover}>
               <IoLogoWhatsapp />
             </Box>
-            <Text fontSize={["12px", "16px", "18px", "20px"]} color="gray">
+            <Text fontSize={["12px", "16px", "18px", "20px"]} color="gray" id="contact-phone">
                <a href="https://api.whatsapp.com/send?phone=916300354091">+91 6300354091</a>
             </Text>
           </Flex>
           <Flex align="center" gap={3}>
-            <Link
+            <Link id="contact-email"
               href="mailto:gouseimmugh@gmail.com?subject = Feedback&body = Message"
               color="white"
             >
@@ -101,7 +106,7 @@ const Contact = () => {
               </Box>
             </Link>
 
-            <Text fontSize={["12px", "16px", "18px", "20px"]} color="gray">
+            <Text fontSize={["12px", "16px", "18px", "20px"]} color="gray" id="contact-email">
               gouseimmugh@gmail.com
             </Text>
           </Flex>
@@ -112,6 +117,7 @@ const Contact = () => {
 
      
     </Stack>
+    </section>
   )
 }
 

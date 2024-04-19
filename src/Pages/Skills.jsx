@@ -1,6 +1,6 @@
 import {
   Box,
-  Heading,
+ 
   Image,
   Stack,
   Text,
@@ -10,23 +10,26 @@ import {
 import React from "react";
 import "../style/skills.css";
  
-import { SiFrontendmentor } from "react-icons/si";
-import { FiDatabase } from "react-icons/fi";
-import { BsPuzzle } from "react-icons/bs";
+ 
+ 
 import Stats from "./Stats";
 
 const Skills = () => {
   return (
-    <Box>
-    <Stack id="skill" pt={10} pb="10%" spacing={["40%", "5%", "5%", "3%"]}>
+    
+      <Box id="skills"  >
+
+      
+    <Stack   pt={10} pb="10%" spacing={["40%", "5%", "5%", "3%"]}>
    
       
       <Stack spacing="4%">
-        <Text textAlign={"center"} fontSize={"25px"} color="black" fontWeight="bold">
+        <Text textAlign={"center"}    fontSize={"25px"} color="black" fontWeight="bold">
           TECHNICAL SKILLS
         </Text>
         <SimpleGrid
-          id="skillDiv"
+           id="skillDiv"
+         
           columns={[2, 3, 3, 5]}
           align="center"
           justify="space-evenly"
@@ -34,6 +37,7 @@ const Skills = () => {
           spacingX={12}
           fontWeight="bold"
           color="gray"
+          
         >
           <Box>
             <Image src="https://cdn-icons-png.flaticon.com/512/732/732212.png?w=360" alt="html" />

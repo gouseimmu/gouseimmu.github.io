@@ -27,8 +27,10 @@ const About = () => {
             >
               <ImQuotesLeft />
             </Text>
+            
 
-            <Text color={"black"}>
+            
+            <Text color={"black"} id="user-detail-intro">
               I'm a Passionate Full-Stack Web Developer with Skills like React,
               Redux, HTML, CSS3, JavaScript, NPM, GIT, etc... Adaptive to all
               kinds of people and surroundings and always appreciate
@@ -37,15 +39,18 @@ const About = () => {
               skills and explore them in an organization.
           
             </Text>
+            
             <Text fontSize="40px" textAlign="center" color="red" ml="90%">
               <ImQuotesRight />
             </Text>
           </Box>
         </Stack>
         <Img
+       
           src="https://avatars.githubusercontent.com/u/101376314?v=4"
           h="280px"
           bg="rgb(247, 224, 224,0.5)"
+          // class="home-img"
           borderRadius="5%"
           boxShadow="rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"
         />
