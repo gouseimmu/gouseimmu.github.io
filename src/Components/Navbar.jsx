@@ -30,7 +30,7 @@ const Navbar = () => {
     zIndex: 2,
   };
   const Download=()=>{
-      window.open("https://drive.google.com/file/d/1-Jn5LmN-Jaa8iL4dcTXU4Osjnm8asL1C/view?usp=sharing")
+      window.open("https://drive.google.com/file/d/1b0eroflJQA0FAgswmg4LWzfrnHuLpIYp/view?usp=sharing")
   }
  
 

@@ -41,31 +41,31 @@ const Skills = () => {
         >
           <Box>
             <Image src="https://cdn-icons-png.flaticon.com/512/732/732212.png?w=360" alt="html" />
-            <Text>HTML</Text>
+            <Text>MS SQL SERVER</Text>
           </Box>
           <Box>
             <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="css" />
-            <Text>CSS</Text>
+            <Text>Power BI</Text>
           </Box>
           <Box>
             <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript" />
-            <Text>JavaScript</Text>
+            <Text>SSIS</Text>
           </Box>
           <Box>
             <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React" />
-            <Text>React</Text>
+            <Text>SSRS</Text>
           </Box>
           <Box>
             <Image src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png" alt="mongoDB" />
-            <Text>MongoDB</Text>
+            <Text>SSAS</Text>
           </Box>
           <Box>
             <Image src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="redux" />
-            <Text>Redux</Text>
+            <Text>Azure</Text>
           </Box>
           <Box>
             <Image src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="Node.js" />
-            <Text>NodeJS</Text>
+            <Text>Data Analysis</Text>
           </Box>
           <Box>
             <Image
@@ -74,15 +74,15 @@ const Skills = () => {
               border="1px solid white"
               borderRadius="50%"
             />
-            <Text>Express.js</Text>
+            <Text>DAX</Text>
           </Box>
           <Box>
             <Image src="https://images.opencollective.com/chakra-ui-pro/61bd1dd/logo/256.png" alt="Chakra-ui" />
-            <Text>Chakra-UI</Text>
+            <Text>Microsoft Excel</Text>
           </Box>
           <Box>
             <Image src="https://www.logo.wine/a/logo/GitHub/GitHub-Logo.wine.svg" alt="git" />
-            <Text>Git</Text>
+            <Text>Tableau</Text>
           </Box>
         </SimpleGrid>
         

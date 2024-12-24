@@ -27,26 +27,24 @@ const About = () => {
             >
               <ImQuotesLeft />
             </Text>
-            
 
-            
             <Text color={"black"} id="user-detail-intro">
-              I'm a Passionate Full-Stack Web Developer with Skills like React,
-              Redux, HTML, CSS3, JavaScript, NPM, GIT, etc... Adaptive to all
+              Having around 3 years of experience as BI developer with skill set
+              of SQL Server, SSIS, Power Bi and SSAS, SSRS, Azure etc.. Adaptive to all
               kinds of people and surroundings and always appreciate
-              constructive criticism to improve my performance. Having very
-              Strong Passion for coding and eagerness to learn and enhance my
-              skills and explore them in an organization.
-          
+              constructive criticism to improve my performance.Looking to work in a
+              challenging environment as a Data Analyst utilizing my knowledge
+              and logical thinking to my best in providing solutions in diverse
+              domains and also where I can improve my Skills all the time
+              according to Global Market Trends.
             </Text>
-            
+
             <Text fontSize="40px" textAlign="center" color="red" ml="90%">
               <ImQuotesRight />
             </Text>
           </Box>
         </Stack>
         <Img
-       
           src="https://avatars.githubusercontent.com/u/101376314?v=4"
           h="280px"
           bg="rgb(247, 224, 224,0.5)"

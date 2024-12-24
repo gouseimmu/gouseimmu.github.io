@@ -20,7 +20,7 @@ const Home = () => {
             </Text>
             {/* <h1 id="user-detail-name">Shaik Gouse</h1>
     <p id="user-detail-intro">Software Developer</p> */}
-            <img   src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=FFFFFF&width=565&lines=Hii%2C+I'm+Shaik Gouse  👋;Full-Stack+Web+Developer..." alt="name" />
+            <img   src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&pause=1000&color=FFFFFF&width=565&lines=Hii%2C+I'm+Shaik Gouse  👋;Business+Intelligence+Developer..." alt="name" />
             {/* <Heading color="white" fontSize={["50px", "60px", "70px", "90px"]}>
              SHAIK GOUSE
             </Heading>
